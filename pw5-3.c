@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
 int n;
-double c = 0.0;
 scanf("%d", &n);
 while (n > 0) {
+  double c = 0.0;
   for (int i = 1;i <= n;i++){
     float h = (float)i / (i + 1);
     c += h;
